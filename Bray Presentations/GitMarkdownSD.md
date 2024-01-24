@@ -56,17 +56,20 @@ style: |
 
 ## How and When to Use Version Control
 
-<section>
-    <footer>
-        <div class="footer-left">Left-side Text</div>
-        <div class="footer-center">Center Text</div>
-        <div class="footer-right">Right-side Text</div>
-    </footer>
-</section>
+<footer>
+    Last Edited: Jan 2024
+</footer>
+
+---
+
+# Table of Contents
+
+- [Basic Git Commands](#basic)
 
 ---
 
 <!-- _class: subsection invert -->
+<!-- _slide: #basic -->
 
 ![bg left:30% saturate:0.5](adam-vradenburg-sWAAhaoVuko-unsplash.jpg)
 
@@ -102,7 +105,7 @@ style: |
 
 <!-- _class: subsection invert -->
 
-![bg left:30% saturate:0.7](geranimo-qzgN45hseN0-unsplash.jpg)
+![bg left:30% saturate:0.6](geranimo-qzgN45hseN0-unsplash.jpg)
 
 # Advanced Git Commands
 
