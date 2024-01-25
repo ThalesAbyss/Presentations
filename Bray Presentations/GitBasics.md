@@ -259,7 +259,7 @@ Committing often is a best practice in version control. Frequent commits:
 
 ---
 
-<!-- _class: tight-slide invert -->
+<!-- _class: xtight-slide invert -->
 
 # `git branch`
 
