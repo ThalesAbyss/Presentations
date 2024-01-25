@@ -71,7 +71,7 @@ style: |
 
 # Basic Git Commands
 
-## &#xF401;init &#xEB3E;clone &#xEAFC;commit <br> &#xF403;push &#xEA64;pull  &#xEA77;sync
+## &#xF401;init &#xEB3E;clone <br> &#xEADC;add &#xEAFC;commit &#xF403;push <br> 
 
 ---
 
@@ -140,19 +140,55 @@ This command initializes a new Git repository in the `local directory`, copies a
 
 It also automatically creates a remote connection named `origin` pointing back to the original repository, making it easy to fetch updates or push changes back to it.
 
+<footer> &#xEB3E; clone </footer>
+
 ---
 
 # `git clone` (cont'd)
 
-One of the important aspects of `git clone` is its flexibility. You can clone repositories from various locations, including a local file system or remote servers like GitHub, GitLab, or Bitbucket. Additionally, `git clone` supports different transfer protocols like `HTTPS`, `SSH`, or Git's own protocol.
+You can clone repositories from various locations, including a local file system or remote servers like GitHub, GitLab, or Bitbucket. Additionally, `git clone` supports different transfer protocols like `HTTPS`, `SSH`, or Git's own protocol.
 
 `git clone` is often the first step in contributing to a project, as it allows you to create a personal working copy where you can make changes _without affecting the original project_. Remember, any commits you make in your cloned repository are isolated to your local environment until you push them to a remote server.
 
-
+<footer> &#xEB3E; clone </footer>
 
 ---
 
 # git commit
+
+**Committing Changes to Your Repository**
+
+`git commit` takes a snapshot of your project's currently staged changes. This command captures the state of your modified files at that moment, allowing you to record the progress of your work on the repository's history.
+
+---
+
+## How It Works
+
+When you make changes to your files, these modifications are first marked in the working directory. To prepare for a commit, you stage these changes using `git add`. `git commit` then packages these staged changes into a new commit, which is added to your local repository's history.
+
+**Usage:**
+```bash
+git add <file>
+git commit -m "Descriptive message about the change"
+```
+
+---
+
+## Commit Often
+
+Committing often is a best practice in version control. Frequent commits:
+
+- Help track and understand the history of changes more clearly.
+- Make it easier to locate and fix bugs or revert to previous states.
+- Facilitate collaboration by breaking down changes into manageable parts.
+
+---
+
+## What git commit Doesn't Do
+
+- `git commit` does not affect the remote repository. Changes must be pushed using `git push`.
+- It doesn't automatically include all changes in your working directory; only staged changes are committed.
+- `git commit` does not merge changes from different branches or resolve conflicts.
 
 ---
 
