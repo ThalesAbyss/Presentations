@@ -81,6 +81,49 @@ style: |
 
 # git init
 
+**Initializing a New Git Repository**
+
+`git init` is a fundamental Git command used to start a new, empty Git repository or to reinitialize an existing one. When you run git init, Git creates a new subdirectory named `.git` in the root of your project directory. This `.git` directory contains all the metadata for the new repository — this metadata includes subdirectories for objects, refs, and template files, which are essential for the version control capabilities of Git.
+
+---
+
+# git init (cont'd)
+
+Using git init is the first step in establishing a repository's version control environment. It does not create any project files themselves but sets up the necessary infrastructure so Git can start tracking changes to existing files or new files you add.
+
+It’s important to note that git init is a safe command to run: it won't overwrite things that are already there. If you run git init in an existing directory, it will simply add the Git repository structure to this directory, enabling version control.
+
+---
+
+## Key Files to Commit
+
+- **README.md**: Provides an overview of your project, how to set it up, and use it.
+- **.gitignore**: Specifies intentionally untracked files to ignore (e.g., log files, build directories).
+- **LICENSE.md**: States the license under which your project is made available (e.g., MIT, GPL).
+
+---
+
+## Using git init in Bash
+
+To initialize a new Git repository in bash, navigate to your project directory and run:
+
+```bash
+cd /path/to/your/project
+git init
+```
+
+This creates a new subdirectory named `.git` that contains all of your necessary repository files.
+
+---
+
+## Using git init in VS Code
+
+1. Open your project folder in VS Code.
+2. Open the integrated terminal (`Ctrl+``).
+3. Run the `git init` command.
+
+VS Code will recognize the repository and provide Git source control tools in the Source Control panel.
+
 ---
 
 # git clone
@@ -100,6 +143,19 @@ style: |
 ---
 
 # git sync
+
+---
+
+<!-- _class: subsection invert -->
+
+# &#xEBD8; Azure DevOps &#xEBE8;
+
+## Keeping Repositories Safe
+
+---
+
+
+
 
 ---
 
